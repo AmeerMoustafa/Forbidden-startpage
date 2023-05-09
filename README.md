@@ -1,6 +1,7 @@
 # Forbidden-startpage
 A simple startpage with a few themes to choose from. Made for personal use, practice and fun. Been learning web development for a few months. I am very open for suggestions on improving this project and will very much appreciate feedback.<br><br>
-![](http://ForTheBadge.com/images/badges/built-with-love.svg)
+![](http://ForTheBadge.com/images/badges/built-with-love.svg) <br><br>
+![Live Preview](https://forbidden-startpage.pages.dev/)
 
 ### features:
 
