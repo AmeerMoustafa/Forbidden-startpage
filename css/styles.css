@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital@0;1&family=Space+Mono:wght@700&display=swap');
+
+
+:root,
+    :root.guts {
+    --background-color: #060505ff;
+    --header-color: #A60E10ff;
+    --status-color: #F0F0F0ff;
+    --title-color: #A60E10ff;
+    --link-color: #F0F0F0ff;
+    --hover-color: #1C1C1Cff;
+    --image: url("/img/guts.jpg")
+    }
+
+    :root.pastel {
+        --background-color: #FDF4F5;
+        --header-color: #BA90C6;
+        --status-color: #BA90C6;
+        --title-color: #E8A0BF;
+        --link-color: #BA90C6;
+        --hover-color: #C0DBEA;
+        --image: url("/img/pastel.jpg")
+    }
+
+    :root.alcest {
+        --background-color: #08151Dff;
+        --header-color: #7A8996ff;
+        --status-color: #475464ff;
+        --title-color: #7A8996ff;
+        --link-color: #D4DED6ff;
+        --hover-color: #7A8996ff;
+        --image: url("/img/alcest.jpg")
+    }
+
+    :root.griffith {
+        --background-color: #75989Aff;
+        --header-color: #353636ff;
+        --status-color: #F0F0F0ff;
+        --title-color: #353636ff;
+        --link-color: #F0F0F0ff;
+        --hover-color: #353636ff;
+        --image: url("/img/griffith.jpg")
+    }
+
+    
+
+    :root.gold {
+        --background-color: #18122B;
+        --header-color: #D99433;
+        --status-color: #EDF0E8;
+        --title-color:  #D99433;
+        --link-color: #EDF0E8;
+        --hover-color: #433F57;
+        --image: url("/img/gold.jpg")
+    }
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+.content-container{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.header-container{
+    text-align: center;
+}
+
+h1 {
+    color: var(--header-color);
+    font-family: 'Space Mono', monospace;
+    font-size: 5rem;
+    margin-right: 14vh;
+}
+
+.status-strip {
+    margin-right: 14vh;
+    margin-top: 1vh;
+    margin-bottom: 8vh;
+    color:var(--status-color);
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.5rem;
+}
+
+span {
+    margin-left: 2vh;
+}
+
+.card-container {
+    height: 30vh;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+    width: 15vh;
+    height: 30vh;
+    text-align: center;
+}
+
+
+
+.title {
+    margin-top: 2vh;
+    font-family: 'Space Mono', monospace;
+    color: var(--title-color);
+    font-size: 1.3rem;
+}
+
+a {
+    font-family: 'Overpass', sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--link-color);
+    margin-top: 2vh;
+}
+
+a:hover {
+    
+    color: var(--hover-color);
+}
+
+img {
+    grid-column: 1;
+    border-radius: 8px;
+    grid-row: 2;
+    justify-self: end;
+    width: 60vh;
+    height: 60vh;
+    margin-right: 15vh;
+    content: var(--image);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.12);
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.grow:hover { 
+    transform: scale(1.1); 
+    }
