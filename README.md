@@ -1,7 +1,7 @@
 # Forbidden-startpage
 A simple startpage with a few themes to choose from. Made for personal use, practice and fun. Been learning web development for a few months. I am very open for suggestions on improving this project and will very much appreciate feedback.<br><br>
 ![](http://ForTheBadge.com/images/badges/built-with-love.svg) <br><br>
-![Live Preview](https://forbidden-startpage.pages.dev/)
+[live Preview](https://forbidden-startpage.pages.dev/)
 
 ### features:
 
@@ -17,7 +17,7 @@ A simple startpage with a few themes to choose from. Made for personal use, prac
 ![guts](https://github.com/ForbiddenShadow/Forbidden-startpage/assets/9211143/c8f331b9-05db-4fa7-86c2-d2bab8b98e8a)
 
 ## Griffith
-![griffith](https://github.com/ForbiddenShadow/Forbidden-startpage/assets/9211143/cfe469d3-88b5-463c-8c24-d69521bfdeed)
+![griffith](https://github.com/ForbiddenShadow/Forbidden-startpage/assets/9211143/fd30d62f-33fd-4c78-bc40-ea44dfc27386)
 
 ## Gold
 ![gold](https://github.com/ForbiddenShadow/Forbidden-startpage/assets/9211143/a9321af0-5f7f-43da-9793-2d78b5ea4ef1)
