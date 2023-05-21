@@ -27,3 +27,7 @@ A simple startpage with a few themes to choose from. Made for personal use, prac
 
 ## Alcest
 ![alcest](https://github.com/ForbiddenShadow/Forbidden-startpage/assets/9211143/f4f75030-f3a9-4d5a-bdbe-359d7ff3579c)
+
+### How to add weather suppot
+
+Simply go to the config.JSON file in your config folder and paster your openweatherAPI key there.

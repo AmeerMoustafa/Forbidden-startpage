@@ -1,7 +1,9 @@
+const { weatherAPI } = require('./config/config.JSON')
+
 
 // Initial API call
 const getWeather = async () => {
-    const res = await fetch("https://api.openweathermap.org/data/2.5/weather?lat=33.8938&lon=35.5018&appid=ae4ec71132439c75dd1c70bc0edf353e&units=metric")
+    const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=33.8938&lon=35.5018&appid=${weatherAPI}&units=metric`)
     const weather = await res.json()
     return weather
 }
